@@ -1,2 +1,5 @@
-package com.clientserver.app.graphobj;public class GraphObjectsType {
+package com.clientserver.app.graphobj;
+
+public enum GraphObjectsType {
+    CIRCLE, STAR, IMAGE
 }

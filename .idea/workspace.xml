@@ -4,11 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4d18464-3c3d-42cf-87d3-6314d87ca7e8" name="Changes" comment="" />
+    <list default="true" id="b4d18464-3c3d-42cf-87d3-6314d87ca7e8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clientserver/app/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clientserver/app/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clientserver/app/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphObjectsType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphObjectsType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphStar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphStar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/clientserver/app/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/clientserver/app/hello-view.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -17,20 +45,64 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2MVWhltIOVAd4qNKtutWV6OSv7b" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/code/client-server-architecture/src/main/resources/com/clientserverarchitecture&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.42068964&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.clientserver.app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\code\client-server-architecture\src\main\resources\com\clientserverarchitecture" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\code\client-server-architecture\src\main\resources\com\clientserver\app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="client-server-architecture" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="client-server-architecture" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,8 +111,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677853355148</updated>
-      <workItem from="1677853356188" duration="2000" />
+      <workItem from="1677853356188" duration="5122000" />
+      <workItem from="1677858747515" duration="4393000" />
+      <workItem from="1677863461313" duration="180000" />
+      <workItem from="1677863689281" duration="33024000" />
+      <workItem from="1678032950920" duration="45000" />
+      <workItem from="1678033342254" duration="86000" />
+      <workItem from="1678033460653" duration="40131000" />
+      <workItem from="1678434275076" duration="1599000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

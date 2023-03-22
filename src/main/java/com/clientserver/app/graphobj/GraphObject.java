@@ -1,20 +1,47 @@
 package com.clientserver.app.graphobj;
 
-import javafx.scene.paint.Color;
+import javafx.animation.Transition;
+import javafx.scene.Node;
 
-abstract public class GraphObj {
-    private double centerX, centerY;
-    private double height, width;
-    private Color color;
+import java.io.Serializable;
 
-    public GraphObj(double centerX, double centerY, double height, double width, Color color){
-        this.centerX = centerX;
-        this.centerY = centerY;
+abstract public class GraphObject implements Serializable {
+    double x, y;
+    double height, width;
+
+    public GraphObject(double x, double y, double height, double width) {
+        this.x = x;
+        this.y = y;
         this.height = height;
         this.width = width;
-        this.color = color;
     }
 
-    abstract void draw();
+    public abstract Transition getTransition();
 
+    public abstract Node draw();
+
+    protected abstract void buildNode() throws Exception;
+
+    protected abstract void buildTransition();
+
+    public void init() throws Exception {
+        buildNode();
+        buildTransition();
+    }
+
+    public double getWidth() {
+        return width;
+    }
+
+    public double getY() {
+        return y;
+    }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public double getX() {
+        return x;
+    }
 }

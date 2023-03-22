@@ -3,19 +3,28 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
-<VBox xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.clientserverarchitecture.clientserver.Controller">
+<VBox xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.clientserver.app.Controller">
    <children>
-      <ToolBar prefHeight="40.0" prefWidth="200.0">
+      <MenuBar fx:id="menuBar">
+        <menus>
+            <Menu mnemonicParsing="false" text="File">
+                <MenuItem mnemonicParsing="false" onAction="#saveObjects" text="Save"/>
+                <MenuItem mnemonicParsing="false" onAction="#loadObjects" text="Load"/>
+            </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <ToolBar fx:id="toolbar" prefHeight="40.0" prefWidth="200.0">
         <items>
-          <Button mnemonicParsing="false" text="Button" />
-              <Button mnemonicParsing="false" onAction="#onHelloButtonClick" text="Button" />
+            <ChoiceBox fx:id="choiceGraphObject" prefWidth="150.0" />
+            <Button mnemonicParsing="false" onAction="#onHelloButtonClick" text="Button" />
         </items>
       </ToolBar>
-      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
-          <children>
-              <Label fx:id="welcomeText" layoutX="110.0" layoutY="91.0" prefHeight="35.0" prefWidth="178.0" text="Label" />
-          </children>
+      <Pane fx:id="root" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#onMouseButtonClick" prefHeight="400.0" prefWidth="600.0" VBox.vgrow="ALWAYS">
       </Pane>
    </children>
 </VBox>

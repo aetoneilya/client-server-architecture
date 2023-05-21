@@ -5,6 +5,7 @@ import com.clientserver.app.connection.CallbackControllerJavaFxImp;
 import com.clientserver.app.connection.NetworkConnector;
 import com.clientserver.app.connection.tcp.SocketNetworkClient;
 import com.clientserver.app.connection.tcp.SocketNetworkServer;
+import com.clientserver.app.connection.udp.UdpConnector;
 import com.clientserver.app.graphobj.GraphObject;
 import com.clientserver.app.graphobj.GraphObjectFactory;
 import com.clientserver.app.graphobj.GraphObjectsType;
@@ -91,13 +92,14 @@ public class Controller {
                 networkConnector = isServer ? new SocketNetworkServer(port.getValue(), callbackController) :
                         new SocketNetworkClient(port.getValue(), callbackController);
             } else {
-                System.out.println("Not implemented yet");
-                return;
+                int listenPort = isServer ? port.getValue() : port.getValue() + 1;
+                int sendPort = isServer ? port.getValue() + 1 : port.getValue();
+                networkConnector = new UdpConnector("localhost", sendPort, listenPort, callbackController);
             }
             new Thread(networkConnector).start();
         } catch (IOException e) {
             setConnectionStatus(false);
-            System.out.println("error creating connection");
+            System.out.println("error creating connection : " + e.getMessage());
         }
     }
 

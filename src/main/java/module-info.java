@@ -13,4 +13,10 @@ module com.clientserverarchitecture.clientserver {
     opens com.clientserver.app to javafx.fxml;
     opens com.clientserver.app.graphobj;
     exports com.clientserver.app;
+    exports com.clientserver.app.model;
+    opens com.clientserver.app.model to javafx.fxml;
+
+    exports com.clientserver.app.connection;
+    exports com.clientserver.app.graphobj;
+    exports com.clientserver.app.connection.tcp;
 }

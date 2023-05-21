@@ -1,28 +1,52 @@
-package com.clientserver.app;
+package com.clientserver.app.model;
 
 import com.clientserver.app.graphobj.GraphCircle;
 import com.clientserver.app.graphobj.GraphImage;
 import com.clientserver.app.graphobj.GraphObject;
 import com.clientserver.app.graphobj.GraphStar;
-import com.google.gson.*;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.thoughtworks.xstream.XStream;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.io.IOUtils;
 
 import java.io.*;
-import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class Model {
+    private final Gson gson;
     private List<GraphObject> graphObjects = new ArrayList<>();
+
+    public Model() {
+        GsonBuilder gb = new GsonBuilder();
+        gb.registerTypeAdapter(graphObjects.getClass(), new CustomSerializer());
+        gb.registerTypeAdapter(graphObjects.getClass(), new CustomDeserializer());
+        gson = gb.create();
+    }
+
+    public List<GraphObject> fromJsonList(String json) {
+        List<GraphObject> objects = gson.fromJson(json, graphObjects.getClass());
+        try {
+            for (GraphObject object : objects) {
+                object.init();
+            }
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+        return objects;
+    }
+
+    public String toJsonList(List<GraphObject> graphObjectList) {
+        return gson.toJson(graphObjectList);
+    }
 
     public List<GraphObject> getGraphObjects() {
         return graphObjects;
     }
 
-    void addGrObject(GraphObject go) {
+    public void addGrObject(GraphObject go) {
         graphObjects.add(go);
     }
 
@@ -64,16 +88,12 @@ public class Model {
         String xmlData = IOUtils.toString(is);
 
         xstream.allowTypesByWildcard(new String[]{"com.clientserver.app.**"});
+
         graphObjects = (List<GraphObject>) xstream.fromXML(xmlData);
     }
 
     private void loadJson(InputStream is) throws IOException {
         String json = IOUtils.toString(is);
-        GsonBuilder gb = new GsonBuilder();
-
-        gb.registerTypeAdapter(graphObjects.getClass(), new CustomDeserializer());
-        Gson gson = gb.create();
-
         graphObjects = gson.fromJson(json, graphObjects.getClass());
     }
 
@@ -132,11 +152,6 @@ public class Model {
     private void saveJson(OutputStream os) throws IOException {
         OutputStreamWriter osw = new OutputStreamWriter(os);
 
-        GsonBuilder gb = new GsonBuilder();
-
-        gb.registerTypeAdapter(graphObjects.getClass(), new CustomSerializer());
-        Gson gson = gb.create();
-
         String json = gson.toJson(graphObjects);
         System.out.println(json);
         osw.write(json);
@@ -145,43 +160,3 @@ public class Model {
     }
 }
 
-class CustomSerializer implements JsonSerializer<ArrayList<GraphObject>> {
-    @Override
-    public JsonElement serialize(ArrayList<GraphObject> src, Type typeOfSrc, JsonSerializationContext context) {
-        if (src == null) return null;
-        else {
-            JsonArray ja = new JsonArray();
-            for (GraphObject go : src) {
-
-                JsonObject jo = new JsonObject();
-                jo.addProperty("className", go.getClass().getName());
-                jo.add("class", context.serialize(go, go.getClass()));
-                ja.add(context.serialize(jo));
-            }
-            return ja;
-        }
-    }
-}
-
-class CustomDeserializer implements JsonDeserializer<ArrayList<GraphObject>> {
-    public ArrayList<GraphObject> deserialize(JsonElement json, Type typeOfT, JsonDeserializationContext context) throws JsonParseException {
-
-        ArrayList list = new ArrayList<GraphObject>();
-        JsonArray ja = json.getAsJsonArray();
-
-        for (JsonElement je : ja) {
-
-            String className = je.getAsJsonObject().get("className").getAsString();
-            Class c;
-            try {
-                c = Class.forName(className);
-            } catch (ClassNotFoundException e) {
-                throw new RuntimeException(e);
-            }
-
-            list.add(context.deserialize(je.getAsJsonObject().get("class"), c));
-        }
-
-        return list;
-    }
-}

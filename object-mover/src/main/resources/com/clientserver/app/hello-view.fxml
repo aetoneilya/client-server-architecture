@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<VBox xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.clientserver.app.Controller">
+    <children>
+        <MenuBar fx:id="menuBar">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <MenuItem mnemonicParsing="false" onAction="#saveObjects" text="Save" />
+                    <MenuItem mnemonicParsing="false" onAction="#loadObjects" text="Load" />
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="About" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <TabPane rotateGraphic="true" tabMinWidth="100.0">
+            <tabs>
+                <Tab closable="false" text="Objects">
+                    <content>
+                        <VBox>
+                            <children>
+                                <ToolBar fx:id="toolbar" prefHeight="40.0" prefWidth="200.0">
+                                    <items>
+                                        <ChoiceBox fx:id="choiceGraphObject" prefWidth="150.0" />
+                                        <Button mnemonicParsing="false" onAction="#onHelloButtonClick" text="Button" />
+                                    </items>
+                                </ToolBar>
+                                <Pane fx:id="root" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#onMouseButtonClick" prefHeight="400.0" prefWidth="600.0" VBox.vgrow="ALWAYS">
+                                </Pane>
+                            </children>
+                        </VBox>
+                    </content>
+                </Tab>
+                <Tab closable="false" text="Network">
+                    <content>
+                        <VBox>
+                            <children>
+                                <Label prefHeight="18.0" prefWidth="55.0" text="Settings" />
+                                <Circle fx:id="connectionStatus" fill="#f22626" radius="6.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+                                    <VBox.margin>
+                                        <Insets />
+                                    </VBox.margin>
+                                </Circle>
+                                <HBox prefHeight="62.0" prefWidth="579.0">
+                                    <children>
+                                        <ChoiceBox fx:id="protocolChoice" minWidth="-Infinity" prefWidth="60.0">
+                                            <HBox.margin>
+                                                <Insets right="20.0" />
+                                            </HBox.margin>
+                                        </ChoiceBox>
+                                        <ChoiceBox fx:id="serverClientChoice" prefWidth="80.0">
+                                            <opaqueInsets>
+                                                <Insets />
+                                            </opaqueInsets>
+                                        </ChoiceBox>
+                                        <Label minWidth="30.0" text="IP">
+                                            <padding>
+                                                <Insets left="10.0" top="5.0" />
+                                            </padding>
+                                        </Label>
+                                        <TextField fx:id="host" prefHeight="26.0" prefWidth="131.0" text="127.0.0.1" />
+                                        <Label minWidth="30.0" prefHeight="22.0" prefWidth="47.0" text="Port">
+                                            <padding>
+                                                <Insets left="10.0" top="5.0" />
+                                            </padding>
+                                        </Label>
+                                        <Spinner fx:id="port" editable="true" prefWidth="70.0">
+                                            <valueFactory>
+                                                <SpinnerValueFactory.IntegerSpinnerValueFactory max="20000" min="0" />
+                                            </valueFactory>
+                                        </Spinner>
+                                        <Separator prefWidth="20.0" visible="false" />
+                                        <Button fx:id="connectBtn" mnemonicParsing="false" onAction="#onConnectButtonClick" prefHeight="26.0" prefWidth="80.0" text="Connect" />
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets top="10.0" />
+                                    </VBox.margin>
+                                    <opaqueInsets>
+                                        <Insets />
+                                    </opaqueInsets>
+                                </HBox>
+                                <HBox prefHeight="40.0" spacing="20.0">
+                                    <Button fx:id="removeAllBtn" mnemonicParsing="false" onAction="#onRemoveAllBtnClick" prefWidth="200.0" text="Remove ALL" />
+                                </HBox>
+                                <HBox prefHeight="40.0" spacing="20.0">
+                                    <Button fx:id="sendObjectBtn" mnemonicParsing="false" onAction="#onSendObjectBtnClick" prefWidth="200.0" text="Send object" />
+                                    <Spinner fx:id="sendObjectSpinner" editable="true">
+                                        <valueFactory>
+                                            <SpinnerValueFactory.IntegerSpinnerValueFactory max="10000" min="0" />
+                                        </valueFactory>
+                                    </Spinner>
+                                </HBox>
+                                <HBox prefHeight="40.0" spacing="20.0">
+                                    <Button fx:id="sendObjectListBtn" mnemonicParsing="false" onAction="#onSendObjectListBtnClick" prefWidth="200.0" text="Send all objects" />
+                                </HBox>
+                                <HBox prefHeight="40.0" spacing="20.0">
+                                    <Button fx:id="requestObjectBtn" mnemonicParsing="false" onAction="#onRequestObjectBtnClick" prefWidth="200.0" text="Request object" />
+                                    <Spinner fx:id="requestObjectSpinner" editable="true">
+                                        <valueFactory>
+                                            <SpinnerValueFactory.IntegerSpinnerValueFactory max="10000" min="0" />
+                                        </valueFactory>
+                                    </Spinner>
+                                </HBox>
+                                <HBox prefHeight="40.0" spacing="20.0">
+                                    <Button fx:id="requestSizeBtn" mnemonicParsing="false" onAction="#onRequestObjectListBtnClick" prefWidth="200.0" text="Request all objects" />
+                                </HBox>
+                                <HBox prefHeight="40.0" spacing="20.0">
+                                    <Button fx:id="sendSizeBtn" mnemonicParsing="false" onAction="#onSendSizeBtnClick" prefWidth="200.0" text="Send size" />
+                                </HBox>
+                                <HBox prefHeight="40.0" spacing="20.0">
+                                    <Button fx:id="requestSizeBtn" mnemonicParsing="false" onAction="#onRequestSizeBtnClick" prefWidth="200.0" text="Request size" />
+                           <Label fx:id="requestSizeLabel" text="0" />
+                                </HBox>
+                            </children>
+                            <padding>
+                                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                            </padding>
+                        </VBox>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </children>
+</VBox>

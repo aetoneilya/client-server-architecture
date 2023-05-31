@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4d18464-3c3d-42cf-87d3-6314d87ca7e8" name="Changes" comment="">
+    <list default="true" id="b4d18464-3c3d-42cf-87d3-6314d87ca7e8" name="Changes" comment="http">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clientserver/app/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clientserver/app/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clientserver/app/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphObjectFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphObjectsType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphObjectsType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphStar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphStar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/clientserver/app/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/clientserver/app/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,21 +16,29 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Enum" />
+        <option value="Record" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="udp" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProblemsViewState">
@@ -60,11 +56,19 @@
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/code/client-server-architecture/src/main/resources/com/clientserverarchitecture&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;http&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/code/client-server-architecture/src/main/java/com/clientserver/app&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/code/java-start-summer2023&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -74,6 +78,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.42068964&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;5261539cab7de0487b6b41415acc7f61&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -85,23 +90,66 @@
       <recent name="C:\code\client-server-architecture\src\main\resources\com\clientserverarchitecture" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\code\client-server-architecture" />
+      <recent name="C:\code\client-server-architecture\object-mover" />
+      <recent name="C:\code\client-server-architecture\desktop" />
       <recent name="C:\code\client-server-architecture\src\main\resources\com\clientserver\app" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="client-server-architecture" />
+  <component name="RunManager" selected="Application.FigureDrawer">
+    <configuration name="Application" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="com.clientserver.app.Application" />
+      <module name="client-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.clientserver.app.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="client-server-architecture" />
-      <option name="filePath" />
+    <configuration name="FigureDrawer" type="Application" factoryName="Application" singleton="false" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.clientserver.app.Application" />
+      <module name="object-mover" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.clientserver.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HubApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="hub" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.clientserver.hub.HubApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FigureDrawer" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -119,11 +167,62 @@
       <workItem from="1678033342254" duration="86000" />
       <workItem from="1678033460653" duration="40131000" />
       <workItem from="1678434275076" duration="1599000" />
+      <workItem from="1679480300510" duration="1183000" />
+      <workItem from="1680704163077" duration="153000" />
+      <workItem from="1681711370015" duration="505000" />
+      <workItem from="1684397264018" duration="11731000" />
+      <workItem from="1684472092210" duration="18568000" />
+      <workItem from="1684678615311" duration="2732000" />
+      <workItem from="1684996639310" duration="29916000" />
+      <workItem from="1685430773867" duration="1000" />
+      <workItem from="1685507174638" duration="849000" />
     </task>
+    <task id="LOCAL-00001" summary="1 lab">
+      <created>1679480516244</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679480516244</updated>
+    </task>
+    <task id="LOCAL-00002" summary="tcp">
+      <created>1684650999254</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684650999254</updated>
+    </task>
+    <task id="LOCAL-00003" summary="tcp">
+      <created>1684678716846</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684678716846</updated>
+    </task>
+    <task id="LOCAL-00004" summary="http">
+      <created>1685248885129</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685248885129</updated>
+    </task>
+    <task id="LOCAL-00005" summary="http">
+      <created>1685248908072</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685248908072</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1 lab" />
+    <MESSAGE value="tcp" />
+    <MESSAGE value="http" />
+    <option name="LAST_COMMIT_MESSAGE" value="http" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -131,6 +230,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.bson.BsonInvalidOperationException" package="org.bson" />
+          <option name="timeStamp" value="2" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>

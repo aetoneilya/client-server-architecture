@@ -4,42 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4d18464-3c3d-42cf-87d3-6314d87ca7e8" name="Changes" comment="tcp">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hub/src/main/java/com/clientserver/hub/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/object-mover/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/object-mover/src/main/java/com/clientserver/app/connection/http/FiguresClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/object-mover/src/main/java/com/clientserver/app/connection/http/HttpConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="b4d18464-3c3d-42cf-87d3-6314d87ca7e8" name="Changes" comment="http">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/object-mover/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/object-mover/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/object-mover/src/main/java/com/clientserver/app/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/object-mover/src/main/java/com/clientserver/app/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/connection/CallbackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/object-mover/src/main/java/com/clientserver/app/connection/CallbackController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/connection/CallbackControllerJavaFxImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/object-mover/src/main/java/com/clientserver/app/connection/CallbackControllerJavaFxImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/connection/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/object-mover/src/main/java/com/clientserver/app/connection/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/connection/NetworkConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/object-mover/src/main/java/com/clientserver/app/connection/NetworkConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/connection/tcp/SocketNetworkClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/object-mover/src/main/java/com/clientserver/app/connection/tcp/SocketNetworkClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/connection/tcp/SocketNetworkConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/object-mover/src/main/java/com/clientserver/app/connection/tcp/SocketNetworkConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/connection/tcp/SocketNetworkServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/object-mover/src/main/java/com/clientserver/app/connection/tcp/SocketNetworkServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/connection/udp/UdpConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/object-mover/src/main/java/com/clientserver/app/connection/udp/UdpConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/object-mover/src/main/java/com/clientserver/app/graphobj/GraphCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/object-mover/src/main/java/com/clientserver/app/graphobj/GraphImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/object-mover/src/main/java/com/clientserver/app/graphobj/GraphObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/object-mover/src/main/java/com/clientserver/app/graphobj/GraphObjectFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphObjectsType.java" beforeDir="false" afterPath="$PROJECT_DIR$/object-mover/src/main/java/com/clientserver/app/graphobj/GraphObjectsType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/graphobj/GraphStar.java" beforeDir="false" afterPath="$PROJECT_DIR$/object-mover/src/main/java/com/clientserver/app/graphobj/GraphStar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/model/CustomDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/object-mover/src/main/java/com/clientserver/app/model/CustomDeserializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/model/CustomSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/object-mover/src/main/java/com/clientserver/app/model/CustomSerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clientserver/app/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/object-mover/src/main/java/com/clientserver/app/model/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/object-mover/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/clientserver/app/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/object-mover/src/main/resources/com/clientserver/app/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/clientserver/app/pngegg.png" beforeDir="false" afterPath="$PROJECT_DIR$/object-mover/src/main/resources/com/clientserver/app/pngegg.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,38 +50,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "http",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_directory_selection": "C:/code/client-server-architecture/src/main/java/com/clientserver/app",
-    "last_opened_file_path": "C:/code/java-start-summer2023",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.42068964",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "spring.configuration.checksum": "5261539cab7de0487b6b41415acc7f61",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;http&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/code/client-server-architecture/src/main/java/com/clientserver/app&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/code/java-start-summer2023&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.42068964&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;5261539cab7de0487b6b41415acc7f61&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.clientserver.app" />
@@ -165,7 +131,9 @@
       </method>
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
@@ -205,7 +173,9 @@
       <workItem from="1684397264018" duration="11731000" />
       <workItem from="1684472092210" duration="18568000" />
       <workItem from="1684678615311" duration="2732000" />
-      <workItem from="1684996639310" duration="29475000" />
+      <workItem from="1684996639310" duration="29916000" />
+      <workItem from="1685430773867" duration="1000" />
+      <workItem from="1685507174638" duration="849000" />
     </task>
     <task id="LOCAL-00001" summary="1 lab">
       <created>1679480516244</created>
@@ -228,7 +198,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684678716846</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="http">
+      <created>1685248885129</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685248885129</updated>
+    </task>
+    <task id="LOCAL-00005" summary="http">
+      <created>1685248908072</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685248908072</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +221,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1 lab" />
     <MESSAGE value="tcp" />
-    <option name="LAST_COMMIT_MESSAGE" value="tcp" />
+    <MESSAGE value="http" />
+    <option name="LAST_COMMIT_MESSAGE" value="http" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
